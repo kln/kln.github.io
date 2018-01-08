@@ -1,0 +1,33 @@
+# Site settings
+title: InterNerd
+email: blog.internerd@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+description: "um blog sobre tecnologia, linux, desenvolvimento, ruby, virtualização, entre outras coisas legais."
+# Build settings
+markdown: kramdown
+kramdown:
+  enable_coderay: true
+  coderay:
+    line_numbers: nil
+
+highlighter: pygments
+lsi:         false
+
+timezone: America/Sao_Paulo
+encoding:     "utf-8"
+
+authors:
+ kelvin:
+  display_name: Kelvin Morais
+  picture: /images/authors/kelvin.png
+  contact:
+   email: morais.kelvin@gmail.com
+   github: github.com/kln
+   twitter: MoraisKelvin
+   facebook: ''
+   googleplus: ''
+   linkedin: ''
+   skype: ''
+   tumblr: ''
+   youtube: ''
+   instagram: ''

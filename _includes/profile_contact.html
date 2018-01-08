@@ -1,0 +1,11 @@
+{% assign profile = include.profile %}
+
+<h1>Contato</h1>
+
+<p class="author-contact">
+{% for contact in site.authors[profile].contact %}
+	{% if contact[1] != '' %}
+		<a href="{% if contact[0] == 'email' %}mailto:{% endif %}{{ contact[1] }}"><img src="/images/social_networking/{{contact[0]}}.png"/></a>
+	{% endif %}
+{% endfor %}
+</p>
