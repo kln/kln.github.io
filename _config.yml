@@ -10,7 +10,7 @@ kramdown:
   coderay:
     line_numbers: nil
 
-highlighter: pygments
+highlighter: rouge
 lsi:         false
 
 timezone: America/Sao_Paulo
